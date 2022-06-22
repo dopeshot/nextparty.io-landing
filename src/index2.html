@@ -24,13 +24,14 @@
     <!-- Title -->
     <title>Truth or Dare - NextParty</title>
 
-    <!-- Font Rubik -->
+    <!-- Css -->
     <link href="/dist/output.css" rel="stylesheet">
 
-    <!-- Font Rubik -->
+    <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0eea05f6c5.js" crossorigin="anonymous"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-MF26QNJZKJ"></script>
@@ -44,9 +45,18 @@
 </head>
 
 <body class="bg-black">
-    <header>
-        <h1 class="text-6xl font-semibold">For your party</h1>
-    </header>
+    <div class="bg-[url('/src/images/gradients/hardcore.svg')] bg-no-repeat bg-cover">
+        <header class="container h-screen flex items-center">
+            <div>
+                <h1 class="text-6xl font-black mb-3">For your <span class="block text-red-500">party</span></h1>
+                <p class="mb-8">The next generation of Truth or Dare!</p>
+                <button class="bg-white font-semibold rounded-sm px-8 py-3">
+                    <i class="fa-solid fa-play pr-2"></i>
+                    Play for free
+                </button>
+            </div>
+        </header>
+    </div>
 </body>
 
 </html>

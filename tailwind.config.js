@@ -7,8 +7,7 @@ module.exports = {
         DEFAULT: '1rem',
         sm: '2rem',
         md: '4rem',
-        xl: '5rem',
-        '2xl': '6rem',
+        xl: '10rem',
       },
     },
     fontFamily: {

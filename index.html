@@ -36,13 +36,13 @@
     }
 
     main {
-        height: 100%;
-        width: 100%;
+        min-height: 100%;
+        min-width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background-repeat: no-repeat;
+        background-repeat: repeat;
         background-size: cover;
         background-position: center;
         background-image: url("mediapool/default.svg");
@@ -56,10 +56,25 @@
         font-weight: bold;
         text-decoration: none;
         border-radius: 8px;
+        margin-bottom: 4rem;
+
     }
 
     img#header {
-        height: 300px;
+        max-height: 300px;
+        max-width: 100%;
+    }
+
+    p {
+        padding-bottom: 2rem;
+    }
+
+    h3 {
+        padding-bottom: 1rem;
+    }
+
+    ul {
+        padding-bottom: 2rem;
     }
 </style>
 
@@ -77,5 +92,29 @@
     <h1 style="text-align: center; text-transform: uppercase; padding-bottom: 1rem;">Make your next party,<br />the best one!</h1>
     <p style="text-align: center; padding-bottom: 1rem;">Create your own truths and dares or explore hunderts of community created topics!<br />You will find the topic you are looking for!</p>
     <a class="link" href="https://app.nextparty.io" target="_blank">Play now!</a>
-    <a href="https://play.google.com/store/apps/details?id=app.nextparty.io" target="_blank" style="margin-top: 1rem;"><img src="https://lh3.googleusercontent.com/rk0VDY0U4GzpW9JIGDkZkhzVwOMISvHaSJJkjbXr6ccGlEEgnX-ymfm1ak6AvZ8GjokEhmgs9QNkbLpyZGeJ=w200-rw-" /></a>
+    <!--<a href="https://play.google.com/store/apps/details?id=app.nextparty.io" target="_blank" style="margin-top: 1rem;"><img src="https://lh3.googleusercontent.com/rk0VDY0U4GzpW9JIGDkZkhzVwOMISvHaSJJkjbXr6ccGlEEgnX-ymfm1ak6AvZ8GjokEhmgs9QNkbLpyZGeJ=w200-rw-" /></a>-->
+    <section style="max-width: 720px;">
+        <p>Turn up the excitement at your next gathering, date, or chat with our cutting-edge Truth or Dare app. Spark unforgettable moments by creating your own thrilling tasks or dive into hundreds of community-created truths and dares. Find exactly what you need to light up your event. It's time to play!
+        </p>
+        <h3>WHO'S IT FOR?</h3>
+        <ul>
+            <li>Party-goers: Bring your parties to life with daring drinks and merry moods. Engage your guests in a fun, interactive way and create memories that will last a lifetime.
+            </li>
+            <li>Couples: Add a romantic twist to your relationship. Challenge each other with sexy truths and daring dares that will deepen your bond and fan the flames of love.
+            </li>
+            <li>Friends: Turn casual chats into intriguing conversations. Foster better understanding, engage in deep talks, and learn more about your friends than ever before.
+            </li>
+        </ul>
+
+        <h3>FEATURES</h3>
+        <ul>
+            <li>Best of the Best: Our intelligent algorithm sorts out the best sets, ensuring you get the most out of your playtime.
+            </li>
+            <li>Create and Explore: Flex your creativity by crafting your own truth or dare games. Or if you prefer, dive into our extensive collection of community-created sets.
+            </li>
+            <li>Extensive Collection: Our library is packed with a wealth of sets to suit every occasion and mood. You'll never run out of choices!
+            </li>
+        </ul>
+        <p>Step into the future of social games. Play Now!</p>
+    </section>
 </main>
